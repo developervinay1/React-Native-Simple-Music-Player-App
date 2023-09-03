@@ -30,6 +30,7 @@ export default function Music() {
       <FlatList
         ref={ref}
         horizontal
+        showsHorizontalScrollIndicator={false}
         pagingEnabled
         data={songs}
         renderItem={({ item }) => (
